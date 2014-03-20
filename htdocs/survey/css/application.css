@@ -1,0 +1,184 @@
+
+html {
+	
+    background-image: url(img_background_base.png);
+    background-repeat:repeat;
+}
+body {
+	
+    background-image: url(img_background.png);
+    background-repeat:repeat-x;
+    font-family: AndikaRegular;
+    font-size: 14px;
+}
+.content {
+    height:100%;
+    padding-top: 20px;
+    background-color:white;
+}
+.top-bar-section ul li a {
+    font-family: CarterOneRegular;
+    font-size: 14px;
+}
+.header {
+	
+    background-color:#ADD699;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    border-top:solid;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-color: #333300;
+
+}
+.content, .header, .baseContent, .contactContent, .footer {
+    border-right:solid;
+    border-left:solid;
+    border-top-color: #333300;
+    border-bottom-color: #333300;
+    border-left-color: #333300;
+    border-right-color: #333300;
+	
+}
+
+.baseContent {
+    background-image: url(bg_contentBase.png);
+    background-repeat: repeat-x;
+    padding-top:25px;
+
+}
+.baseContent {
+    	background-image:url(bg_contentBaseRepeat.png);
+        background-repeat: repeat;
+}
+.contactContent {
+        background-image:url(bg_footerTop.png);
+        background-repeat: repeat;
+        padding-top: 25px;
+}
+.footer {
+    background-image: url(bg_footer.png);
+    background-repeat:repeat;
+
+}
+.button {
+    font-family: CarterOneRegular;
+    color:black;
+    font-size: small;
+    background: rgb(246,239,223); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(246,239,223,1) 0%, rgba(228,206,149,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,239,223,1)), color-stop(100%,rgba(228,206,149,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(246,239,223,1) 0%,rgba(228,206,149,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(246,239,223,1) 0%,rgba(228,206,149,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(246,239,223,1) 0%,rgba(228,206,149,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(246,239,223,1) 0%,rgba(228,206,149,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6efdf', endColorstr='#e4ce95',GradientType=0 ); /* IE6-9 */
+    border: 1px solid;
+    border-color: #DBB96E;
+
+}
+.navbar ul {
+    border-color: #DBB96E;
+    border: 1px solid;
+}
+ul{
+    border-radius:5px;
+}
+
+.baseContent div img {
+    border:solid;
+    border-width: 2px;
+    border-color: white;
+}
+.greenbutton {
+    font-family: CarterOneRegular;
+    text-align: center;
+    font-size: 16px;
+    height:100%;
+    background-color:#239D15;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #216B20;
+    color: #FDFDFB;
+    margin:15px 0px 0px 0px;
+   height: 35px;
+   line-height: 35px;
+   vertical-align: middle;
+
+}
+    .greenbutton a {
+        color:#FDFDFB;
+    }
+    .greenbutton a:hover {
+        color: #ADD699;
+    }
+.panel h4, .section h1 {
+color: #745b1b;
+font-family: CarterOneRegular;
+font-size: 34px;
+line-height: 34px;
+margin: 0;
+padding: 0;
+text-shadow: 1px 1px 0 #fff0d8;
+width: auto;
+}
+
+@font-face {
+    font-family: CarterOneRegular;
+    src: url(fonts/carterone-webfont.eot);
+    src: url(fonts/carterone-webfont.eot?#iefix) format(embedded-opentype),
+         url(fonts/carterone-webfont.woff) format(woff),
+         url(fonts/carterone-webfont.ttf) format(truetype),
+         url(fonts/carterone-webfont.svg#CarterOneRegular) format(svg);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: AndikaRegular;
+    src: url(fonts/andika-r-webfont.eot);
+    src: url(fonts/andika-r-webfont.eot?#iefix) format(embedded-opentype),
+         url(fonts/andika-r-webfont.woff) format(woff),
+         url(fonts/andika-r-webfont.ttf) format(truetype),
+         url(fonts/andika-r-webfont.svg#AndikaRegular) format(svg);
+    font-weight: normal;
+    font-style: normal;
+}
+gradientGreenButtogreenbutton {
+    font-family: CarterOneRegular;
+    text-align: center;
+    font-size: 16px;
+    height:100%;
+    background: rgb(135,207,57); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(135,207,57,1) 0%, rgba(110,172,42,1) 49%, rgba(18,155,21,1) 51%, rgba(84,161,21,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(135,207,57,1)), color-stop(49%,rgba(110,172,42,1)), color-stop(51%,rgba(18,155,21,1)), color-stop(100%,rgba(84,161,21,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(135,207,57,1) 0%,rgba(110,172,42,1) 49%,rgba(18,155,21,1) 51%,rgba(84,161,21,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(135,207,57,1) 0%,rgba(110,172,42,1) 49%,rgba(18,155,21,1) 51%,rgba(84,161,21,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(135,207,57,1) 0%,rgba(110,172,42,1) 49%,rgba(18,155,21,1) 51%,rgba(84,161,21,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(135,207,57,1) 0%,rgba(110,172,42,1) 49%,rgba(18,155,21,1) 51%,rgba(84,161,21,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87cf39', endColorstr='#54a115',GradientType=0 ); /* IE6-9 */
+    border:solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color:#686868;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #216B20;
+    color: #FDFDFB;
+    margin:15px 0px 0px 0px;
+   height: 35px;
+   line-height: 35px;
+   vertical-align: middle;
+
+}
+#pscroller1{
+width: 200px;
+height: 100px;
+border: 1px solid black;
+padding: 5px;
+background-color: white;
+}
+
+.someclass{ 
+	margin:10px;
+}
